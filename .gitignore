@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+# datasets (download / regenerate them)
+data/casting/
+data/synthetic/
+data/experiments/
+# trained models are large; share them as a release or Google Drive link
+models/*/*.keras
+models/*/*.pt
+models/*/*.tflite
+kaggle.json

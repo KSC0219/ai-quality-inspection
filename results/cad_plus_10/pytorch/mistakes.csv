@@ -1,0 +1,12 @@
+file,true,p_defective,error
+/content/ai-quality-inspection/data/casting/casting_data/casting_data/test/ok_front/cast_ok_0_1210.jpeg,OK,0.1777,false alarm
+/content/ai-quality-inspection/data/casting/casting_data/casting_data/test/ok_front/cast_ok_0_1382.jpeg,OK,0.1044,false alarm
+/content/ai-quality-inspection/data/casting/casting_data/casting_data/test/ok_front/cast_ok_0_16.jpeg,OK,0.1263,false alarm
+/content/ai-quality-inspection/data/casting/casting_data/casting_data/test/ok_front/cast_ok_0_1891.jpeg,OK,0.191,false alarm
+/content/ai-quality-inspection/data/casting/casting_data/casting_data/test/ok_front/cast_ok_0_2330.jpeg,OK,0.1988,false alarm
+/content/ai-quality-inspection/data/casting/casting_data/casting_data/test/ok_front/cast_ok_0_235.jpeg,OK,0.1363,false alarm
+/content/ai-quality-inspection/data/casting/casting_data/casting_data/test/ok_front/cast_ok_0_3278.jpeg,OK,0.1084,false alarm
+/content/ai-quality-inspection/data/casting/casting_data/casting_data/test/ok_front/cast_ok_0_7839.jpeg,OK,0.5276,false alarm
+/content/ai-quality-inspection/data/casting/casting_data/casting_data/test/ok_front/cast_ok_0_942.jpeg,OK,0.1106,false alarm
+/content/ai-quality-inspection/data/casting/casting_data/casting_data/test/def_front/cast_def_0_150.jpeg,DEFECTIVE,0.0205,missed defect
+/content/ai-quality-inspection/data/casting/casting_data/casting_data/test/def_front/cast_def_0_1591.jpeg,DEFECTIVE,0.0242,missed defect

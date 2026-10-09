@@ -1,0 +1,11 @@
+{
+  "framework": "keras",
+  "experiment": "real",
+  "threshold": 0.5,
+  "img_size": 224,
+  "class_names": [
+    "OK",
+    "DEFECTIVE"
+  ],
+  "label_meaning": "output = probability that the part is DEFECTIVE"
+}

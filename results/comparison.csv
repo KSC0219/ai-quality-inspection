@@ -1,0 +1,7 @@
+experiment,framework,accuracy,recall_defective,precision_defective,f1_defective,roc_auc,missed_defects,false_alarms,threshold,accuracy_at_0.5,params_millions,model_size_mb,latency_ms,train_minutes,epochs
+real,keras,0.9958,0.9934,1.0,0.9967,0.9997,3,0,0.5,0.9958,2.26,22.97,158.94,4.2,15
+real,pytorch,0.9916,0.9934,0.9934,0.9934,0.9999,3,3,0.5,0.9916,11.18,44.79,3.01,5.0,10
+cad_only,keras,0.6266,0.9426,0.6392,0.7618,0.6555,26,241,0.5,0.6266,2.26,22.97,162.18,1.3,8
+cad_only,pytorch,0.6336,1.0,0.6336,0.7757,0.9315,0,262,0.1483,0.835,11.18,44.79,3.16,2.9,15
+cad_plus_10,keras,0.8406,0.9978,0.8,0.888,0.9894,1,113,0.4776,0.8545,2.26,22.97,164.01,1.3,8
+cad_plus_10,pytorch,0.9846,0.9956,0.9804,0.988,0.9992,2,9,0.0996,0.9944,11.18,44.79,3.62,3.6,15

@@ -1,0 +1,31 @@
+{
+  "experiment": "real",
+  "keras_size_mb": 22.97,
+  "tflite_size_mb": 2.53,
+  "quantized": true,
+  "same_decision_rate": 1.0,
+  "max_prob_difference": 0.1683,
+  "tflite_latency_ms": 23.19,
+  "tflite_test_metrics": {
+    "threshold": 0.5,
+    "accuracy": 0.9958,
+    "precision_defective": 1.0,
+    "recall_defective": 0.9934,
+    "f1_defective": 0.9967,
+    "specificity_ok": 1.0,
+    "missed_defects": 3,
+    "false_alarms": 0,
+    "confusion_matrix": [
+      [
+        262,
+        0
+      ],
+      [
+        3,
+        450
+      ]
+    ],
+    "n": 715,
+    "roc_auc": 0.9997
+  }
+}

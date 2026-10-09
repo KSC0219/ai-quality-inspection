@@ -1,0 +1,4 @@
+file,true,p_defective,error
+/content/ai-quality-inspection/data/casting/casting_data/casting_data/test/def_front/cast_def_0_150.jpeg,DEFECTIVE,0.0216,missed defect
+/content/ai-quality-inspection/data/casting/casting_data/casting_data/test/def_front/cast_def_0_1591.jpeg,DEFECTIVE,0.0134,missed defect
+/content/ai-quality-inspection/data/casting/casting_data/casting_data/test/def_front/cast_def_0_442.jpeg,DEFECTIVE,0.0298,missed defect

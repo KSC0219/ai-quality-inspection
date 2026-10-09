@@ -1,0 +1,50 @@
+[
+  {
+    "experiment": "real",
+    "framework": "keras",
+    "accuracy": 0.9958,
+    "recall_defective": 0.9934,
+    "missed_defects": 3,
+    "false_alarms": 0
+  },
+  {
+    "experiment": "real",
+    "framework": "pytorch",
+    "accuracy": 0.9916,
+    "recall_defective": 0.9934,
+    "missed_defects": 3,
+    "false_alarms": 3
+  },
+  {
+    "experiment": "cad_only",
+    "framework": "keras",
+    "accuracy": 0.6266,
+    "recall_defective": 0.9426,
+    "missed_defects": 26,
+    "false_alarms": 241
+  },
+  {
+    "experiment": "cad_only",
+    "framework": "pytorch",
+    "accuracy": 0.6336,
+    "recall_defective": 1.0,
+    "missed_defects": 0,
+    "false_alarms": 262
+  },
+  {
+    "experiment": "cad_plus_10",
+    "framework": "keras",
+    "accuracy": 0.8406,
+    "recall_defective": 0.9978,
+    "missed_defects": 1,
+    "false_alarms": 113
+  },
+  {
+    "experiment": "cad_plus_10",
+    "framework": "pytorch",
+    "accuracy": 0.9846,
+    "recall_defective": 0.9956,
+    "missed_defects": 2,
+    "false_alarms": 9
+  }
+]

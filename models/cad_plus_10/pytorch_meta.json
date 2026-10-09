@@ -1,0 +1,11 @@
+{
+  "framework": "pytorch",
+  "experiment": "cad_plus_10",
+  "threshold": 0.0996,
+  "img_size": 224,
+  "class_names": [
+    "OK",
+    "DEFECTIVE"
+  ],
+  "label_meaning": "output = probability that the part is DEFECTIVE"
+}

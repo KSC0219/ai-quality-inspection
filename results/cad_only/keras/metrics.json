@@ -1,0 +1,106 @@
+{
+  "chosen_threshold": 0.5,
+  "target_recall": 0.98,
+  "val_at_0.5": {
+    "threshold": 0.5,
+    "accuracy": 0.5146,
+    "precision_defective": 0.5075,
+    "recall_defective": 0.9917,
+    "f1_defective": 0.6714,
+    "specificity_ok": 0.0375,
+    "missed_defects": 2,
+    "false_alarms": 231,
+    "confusion_matrix": [
+      [
+        9,
+        231
+      ],
+      [
+        2,
+        238
+      ]
+    ],
+    "n": 480,
+    "roc_auc": 0.5419
+  },
+  "test_at_0.5": {
+    "threshold": 0.5,
+    "accuracy": 0.6266,
+    "precision_defective": 0.6392,
+    "recall_defective": 0.9426,
+    "f1_defective": 0.7618,
+    "specificity_ok": 0.0802,
+    "missed_defects": 26,
+    "false_alarms": 241,
+    "confusion_matrix": [
+      [
+        21,
+        241
+      ],
+      [
+        26,
+        427
+      ]
+    ],
+    "n": 715,
+    "roc_auc": 0.6555
+  },
+  "test_at_chosen_threshold": {
+    "threshold": 0.5,
+    "accuracy": 0.6266,
+    "precision_defective": 0.6392,
+    "recall_defective": 0.9426,
+    "f1_defective": 0.7618,
+    "specificity_ok": 0.0802,
+    "missed_defects": 26,
+    "false_alarms": 241,
+    "confusion_matrix": [
+      [
+        21,
+        241
+      ],
+      [
+        26,
+        427
+      ]
+    ],
+    "n": 715,
+    "roc_auc": 0.6555
+  },
+  "framework": "keras",
+  "experiment": "cad_only",
+  "train_dir": "/content/ai-quality-inspection/data/synthetic",
+  "test_dir": "/content/ai-quality-inspection/data/casting/casting_data/casting_data/test",
+  "train_counts": {
+    "ok": 960,
+    "defective": 960
+  },
+  "val_counts": {
+    "ok": 240,
+    "defective": 240
+  },
+  "test_counts": {
+    "ok": 262,
+    "defective": 453
+  },
+  "train_seconds": 75.7,
+  "epochs_run": 8,
+  "params": 2259265,
+  "model_size_mb": 22.97,
+  "latency_ms_per_image": 162.18,
+  "config": {
+    "img_size": 224,
+    "batch_size": 32,
+    "epochs_head": 5,
+    "epochs_finetune": 10,
+    "lr_head": 0.001,
+    "lr_finetune": 0.0001,
+    "patience": 3,
+    "val_fraction": 0.2,
+    "target_recall": 0.98,
+    "weights": "imagenet",
+    "seed": 42,
+    "workers": 2,
+    "extra": {}
+  }
+}

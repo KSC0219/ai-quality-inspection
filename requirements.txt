@@ -1,0 +1,25 @@
+# Deep learning (both are pre-installed on Google Colab)
+tensorflow>=2.16        # includes Keras 3 and TFLite converter
+torch>=2.2
+torchvision>=0.17
+
+# CAD stage
+cadquery>=2.4           # parametric CAD kernel (OpenCASCADE), exports STEP
+
+# Data, vision, metrics, plots
+numpy
+opencv-python-headless
+pillow
+scikit-learn
+matplotlib
+
+# Serving and demo
+fastapi
+uvicorn
+python-multipart
+streamlit
+
+# Dataset download and tests
+kaggle
+pytest
+httpx
